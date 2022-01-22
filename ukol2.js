@@ -10,12 +10,14 @@ a) Vaše jméno je Marian, je vám 30 let a tak máte právo řídit auto.
 
 
 
- let jmeno = prompt("Jaké je vaše jméno?");
+let jmeno = prompt("Jaké je vaše jméno?");
 
 let vek = Number(prompt ("Kolik je vám let?"));
 
-if (vek =< 18) {
+if (vek >= 18) {
   console.log("Vaše jméno je" + jmeno + ", je vám " + vek + " a tak máte právo řídit auto.");
+} else {
+  console.log ("Vaše jméno je" + jmeno + ", je vám " + vek + " a tak nemáte právo řídit auto.");
 }
 
 
