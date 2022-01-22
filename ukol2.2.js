@@ -1,5 +1,5 @@
 
-let a = Number(prompt ("Zadejte první číslo:"));
+/* let a = Number(prompt ("Zadejte první číslo:"));
 let b = Number(prompt ("Zadejte druhé číslo:"));
 let c = Number(prompt ("Zadejte třetí číslo:"));
 
@@ -18,3 +18,6 @@ console.log ("Největší hodnotou je první číslo : " + a + ".");
  
     console.log ("Největší hodnotou je třetí číslo: " + c + ".");
 }
+
+*/
+

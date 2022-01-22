@@ -2,6 +2,7 @@
 import './poznamky.js';
 import './ukol2.js';
 import './ukol2.2.js';
+import './ukol3.js';
 
 
 /*
