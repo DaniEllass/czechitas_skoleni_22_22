@@ -4,19 +4,17 @@ let b = Number(prompt ("Zadejte druhé číslo:"));
 let c = Number(prompt ("Zadejte třetí číslo:"));
 
 
-console.log("Vaše zadaná čísla byla: " + a + ", " + b + ", " + c + ".");
+console.log ("Vaše zadaná čísla byla: " + a + ", " + b + ", " + c + ".");
 
 
-if (a > b && a > c); {
-log.console ("Největší hodnotou je číslo: " + a + ".");
+if (a > b && a > c) {
+console.log ("Největší hodnotou je číslo: " + a + ".");
 
-} else {
+} else if (b > c && b > a) {
+
+    console.log ("Největší hodnotou je číslo: " + b + ".");
+
+} else if (c > b && c > a) {
  
-     if (b > c && b > a); {
-    log.console ("Největší hodnotou je číslo: " + b + ".");
-
-} else {
-
-     if (c > b && c > a); { 
-    log.console ("Největší hodnotou je číslo: " + c + ".");
+    console.log ("Největší hodnotou je číslo: " + c + ".");
 }
