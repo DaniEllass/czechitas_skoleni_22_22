@@ -1,9 +1,22 @@
 
-let prvniCislo = (prompt ("Zadejte první číslo:"));
-let druheCislo = (prompt ("Zadejte druhé číslo:"));
-let tretiCislo = (prompt ("Zadejte třetí číslo:"));
+let a = Number(prompt ("Zadejte první číslo:"));
+let b = Number(prompt ("Zadejte druhé číslo:"));
+let c = Number(prompt ("Zadejte třetí číslo:"));
 
-let soucet = (prvniCislo + druheCislo);
 
-console.log(soucet);
+console.log("Vaše zadaná čísla byla: " + a + " " + b + " " + c + ".");
 
+if (a > b && a > c); {
+console.log ("Největší hodnotou je číslo: " + a + ".");
+
+} else 
+ 
+     if (b > c && b > a); {
+    console.log ("Největší hodnotou je číslo: " + b + ".");
+
+} else 
+
+     if (c > b && c > a); {
+    console.log ("Největší hodnotou je číslo: " + c + ".");
+}
+}
