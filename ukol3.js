@@ -3,16 +3,14 @@
 
 2) Nechte uzivatele zadat 2 cisla, ktere znaci dolni a horni mez na ciselne ose celych cisel - vcetne, pokud tedy zada 3 a 7, uvazujme cisla 3, 4, 5, 6, 7. Vypište pomocí FOR cyklu pouze sudá čísla.*//* 
 
-3) Prepiste tento for cyklus pomoci While cyklu    for (let i = 12, j = 12 ** 3; i < 12 + j; i = i * 2) {      console.log(i);    }  - poznamka - pripomenout definici casti for cyklu*/
-
-
-let zadaneCislo = Number(prompt ("Zadejte číslo:"));
+3) Prepiste tento for cyklus pomoci While cyklu    for (let i = 12, j = 12 ** 3; i < 12 + j; i = i * 2) {      console.log(i);    }  - poznamka - pripomenout definici casti for cyklu */
 
 /*
-while (i > 0) {
-  console.log(zadaneCislo + zadaneCislo );
-  i = i + 1;
-  break;
+let zadaneCislo = Number(prompt ("Zadejte číslo:"));
+
+while (zadaneCislo > 0) {
+  console.log(zadaneCislo);
+  zadaneCislo = (zadaneCislo + 1);
 }
 
 console.log("Konec.");
