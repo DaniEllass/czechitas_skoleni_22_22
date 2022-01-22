@@ -5,7 +5,7 @@ let jmeno = "Barbucha";
 
 console.log(vyska);
 
-let bmi = vaha / (vyska * 2);
+let bmi = vaha / (vyska * vyska);
 
 console.log(bmi);
 
