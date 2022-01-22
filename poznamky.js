@@ -1,4 +1,4 @@
-let jeZima = true;
+/*let jeZima = true;
 let svitiSlunicko = true;
 let jeNadNulou = false
 
@@ -6,10 +6,11 @@ let jeNadNulou = false
 let vysledek = jeZima && svitiSlunicko;
 
 // ALESPON JEDNO ||
+*/
 
 
-console.log(vysledek);
 
-console.log(5 === 5);
+
+console.log(5 !== 3);
 
 
