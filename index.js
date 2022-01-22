@@ -1,6 +1,7 @@
 // *import './ukol1.js'; 
 import './poznamky.js';
 import './ukol2.js';
+import './ukol2.2.js';
 
 
 /*

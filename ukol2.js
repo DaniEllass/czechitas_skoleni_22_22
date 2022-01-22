@@ -10,23 +10,25 @@ a) Vaše jméno je Marian, je vám 30 let a tak máte právo řídit auto.
 
 
 
-let jmeno = prompt("Jaké je vaše jméno?");
+/* let jmeno = prompt("Jaké je vaše jméno?");
 
 let vek = Number(prompt ("Kolik je vám let?"));
 
-if (vek >= 18) {
-  console.log("Vaše jméno je" + jmeno + ", je vám " + vek + " a tak máte právo řídit auto.");
+/* if (vek >= 18) {
+  console.log("Vaše jméno je " + jmeno + ", je vám " + vek + " a tak máte právo řídit auto.");
 } else {
-  console.log ("Vaše jméno je" + jmeno + ", je vám " + vek + " a tak nemáte právo řídit auto.");
+  console.log ("Vaše jméno je "  + jmeno + ", je vám " + vek + " a tak nemáte právo řídit auto.");
+}
+*/
+
+/*
+let vypocet = (18 - vek);
+
+if (vek >=18) {
+  log.console ("Vaše jméno je " + jmeno + ", je vám " + vek + " a tak máte právo řídit auto.");
+} else {
+  console.log ("Vaše jméno je " + jmeno + ", je vám " + vek + " a tak musíte počkat " + vypocet + " roků abyste mohl ridit auto." );
 }
 
 
-
-
-
-if (vek < 18) {
-  //vykona, pokud JE PRAVDA
- console.log("Nejsi plnoletý.");
- } else {
-   // vykona, pokud vyraz NENI PRAVDA
- console.log("Jsi plnoletý.");
+*/
